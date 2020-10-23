@@ -1,0 +1,7 @@
+<p>signup works!</p>
+<form method="POST" (ngSubmit)="httpPostExample()" #accountForm="ngForm">
+   이름 <input name="name" type="text" [(ngModel)]="name">
+   비밀번호 <input name="password" type= "password" [(ngModel)]="password">
+   이메일 <input name="email" type="email" [(ngModel)]="email">
+   <input type="submit" value="회원가입">
+</form>
